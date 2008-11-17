@@ -1,0 +1,20 @@
+Bogus Sass Checker
+===============
+
+This is a little ruby script that checks your rails project's Sass files for #ids and .classes and checks if you are using them in the rest of your rails project.
+ack needs to be installed first (http://petdance.com/ack/)
+
+Example
+=======
+Modify PROJECT_PATH in the check_sass.rb and then run it.
+  ruby check_sass.rb
+
+The output you receive are CSS classes and ids that probably aren't used in your rails project.
+
+Contributing
+============
+
+Git source repository: http://github.com/wakoopa/bogus-sass-checker/tree/master
+Please feel free to fork the project at GitHub and submit pull requests or patches.
+
+Copyright (c) 2007-2008 Justin Halsall, released under the MIT license
