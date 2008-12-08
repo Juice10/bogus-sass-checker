@@ -6,8 +6,8 @@ ack needs to be installed first (http://petdance.com/ack/)
 
 Example
 =======
-Modify PROJECT_PATH in the check_sass.rb and then run it.
-  ruby check_sass.rb
+Navigate to your rails project root and run:
+  checksass
 
 The output you receive are CSS classes and ids that probably aren't used in your rails project.
 
