@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.name         = 'bogus_sass_checker'
   s.summary      = "Checks your rails projects Sass files for #ids and .classes and checks if you are using them in the rest of your rails project."
   s.description  = "Checks your rails projects Sass files for #ids and .classes and checks if you are using them in the rest of your rails project. (Depends on ACK)"
-  s.version      = '0.0.1'
+  s.version      = '0.1.0'
   s.date         = '2008-12-08'
   s.platform     = Gem::Platform::RUBY
   s.authors      = ["Justin Halsall"]
