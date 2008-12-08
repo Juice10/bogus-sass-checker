@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+require 'bogus_sass_checker'
+
+PROJECT_PATH = Dir.pwd
+SASS_DIRECTORY_PATH = File.join(PROJECT_PATH, "public/stylesheets/sass/")
+
+stylesheets = Dir.new(SASS_DIRECTORY_PATH).entries - ['.', '..']
+stylesheets.each do |sass_file|
+  stylesheet = open(SASS_DIRECTORY_PATH + sass_file).read
+  stylesheet.scan(/^(?:[^:]*)([#\.](?:[\w]*))/).each do |match|
+    result = search_contents_for(match)
+    if result == ""
+      puts match
+    end
+  end
+end
