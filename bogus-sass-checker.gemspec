@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage     = "http://www.github.com/Wakoopa/bogus-sass-checker"
  
   # Files
-  root_files     = %w[MIT-LICENSE README Rakefile bogus_sass_checker.gemspec]
+  root_files     = %w[MIT-LICENSE README Rakefile bogus-sass-checker.gemspec]
   bin_files      = %w[checksass]
   lib_files      = %w[bogus_sass_checker]
   test_files     = %w[]
