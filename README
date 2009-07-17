@@ -22,7 +22,7 @@ The output you receive are CSS classes and ids that probably aren't used in your
 Contributing
 ============
 
-Git source repository: http://github.com/wakoopa/bogus-sass-checker/tree/master
+Git source repository: http://github.com/Juice10/bogus-sass-checker/tree/master
 Please feel free to fork the project at GitHub and submit pull requests or patches.
 
 Copyright (c) 2007-2008 Justin Halsall, released under the MIT license
