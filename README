@@ -1,8 +1,16 @@
 Bogus Sass Checker
-===============
+==================
 
 This is a little ruby script that checks your rails project's Sass files for #ids and .classes and checks if you are using them in the rest of your rails project.
-ack needs to be installed first (http://petdance.com/ack/)
+ack needs to be installed first ( http://betterthangrep.com/ )
+
+Installation
+============
+Install ack (instructions: http://betterthangrep.com/ )
+Run the following if you haven't already:
+  gem sources -a http://gems.github.com
+Install the gem:
+  sudo gem install Juice10-bogus_sass_checker
 
 Example
 =======
